@@ -18,6 +18,7 @@ def check_missing_values(df):
     """
     missing = df.isnull().sum()
     print("Missing Values:\n", missing)
+    return missing
 
 def generate_summary_statistics(df):
     """
